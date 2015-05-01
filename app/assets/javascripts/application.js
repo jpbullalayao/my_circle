@@ -14,3 +14,17 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+$(document).ready(function () {
+
+	$(".subscribe-btn").on('click', function () {
+		$(".modal-wrapper").addClass("modal-active");
+		$(".subscribe-modal").show(300);
+		$(".subscribe-msg").show();
+	});
+
+	$(".modal-btn").on('click', function () {
+		$(".subscribe-modal").hide(300);
+		$(".modal-wrapper").removeClass("modal-active");
+	});
+});

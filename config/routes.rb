@@ -55,4 +55,6 @@ Rails.application.routes.draw do
   #   end
 
   root 'static_pages#index'
+
+  resources :alpha_users
 end
