@@ -1,0 +1,13 @@
+.input-field {
+	border: none;
+  border-radius: 10px;
+  font-size: $big-font-size;
+  margin-top: 1em;
+  padding: 1em;
+  text-align: center;
+  width: 25%;
+
+  &:first-child {
+  	margin: 0;
+  }
+}

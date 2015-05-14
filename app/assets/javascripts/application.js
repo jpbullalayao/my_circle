@@ -16,15 +16,21 @@
 //= require_tree .
 
 $(document).ready(function () {
+	
+	$(".subscribe").find(".btn-primary").on('click', staticPages.showModal);
 
-	$(".subscribe-btn").on('click', function () {
-		$(".modal-wrapper").addClass("modal-active");
-		$(".subscribe-modal").show(300);
-		$(".subscribe-msg").show();
-	});
+	// $(".subscribe").find(".btn-primary").on('click', function () {
+	// 	$(".modal-background").addClass("modal-active");
+	// 	$(".modal").show(300);
+	// 	$(".subscribe-msg").removeClass("hidden");
 
-	$(".modal-btn").on('click', function () {
-		$(".subscribe-modal").hide(300);
-		$(".modal-wrapper").removeClass("modal-active");
-	});
+	// 	$(".subscribe-now, #new_alpha_user").addClass("hidden");
+	// });
+
+	$(".modal").find(".btn-primary").on('click', staticPages.hideModal);
+
+	// $(".modal").find(".btn-primary").on('click', function () {
+	// 	$(".modal").hide(300);
+	// 	$(".modal-background").removeClass("modal-active");
+	// });
 });

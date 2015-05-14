@@ -1,21 +1,25 @@
 %main.main
+  
   .app-title
     %h1.main-title
       %span.my My 
       %span.circle Circle 
+    
     %h2.sub-title
       Expand your professional circle
 
   .subscribe 
     %p.subscribe-now
       Enter your information below to subscribe to updates!
+    
     = form_for @alpha_user, remote: true do |f|
-      = f.text_field :name, class: "name-field", placeholder: "What's your name?"
+      = f.text_field :name, class: "input-field", placeholder: "What's your name?"
       %br
-      = f.text_field :email, class: "email-field", placeholder: "What's your e-mail address?"
+      = f.text_field :email, class: "input-field", placeholder: "What's your e-mail address?"
       %br
-      = f.submit "Go!", class: "subscribe-btn"
-    %p.subscribe-msg
+      = f.submit "Go!", class: "btn-primary btn-vertical"
+    
+    %p.subscribe-msg.hidden
       Thank you for subscribing!
 
 

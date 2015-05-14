@@ -1,0 +1,80 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+/*----------------*/
+/*      Home      */
+/*----------------*/
+
+.main {
+  font-size: $big-root-font-size;  
+}
+
+  .app-title {
+    margin-top: 2em;
+  }
+
+  	.main-title {
+      font-size: $main-title-font-size;
+  	}
+      .my {
+        background-color: #FFF;
+        border-radius: 100px;
+        color: $main-color;
+        padding: 0.2em 0.1em;
+      }
+
+      .circle {
+        margin-left: -0.2em;
+      }
+
+    .sub-title {
+      margin-top: 2em;
+    }
+
+
+  .subscribe {
+    margin-top: 3em;
+  }
+
+    .subscribe-now {
+      font-size: $big-font-size;
+      margin-bottom: 1em;
+    }
+
+    .subscribe-msg {
+      font-size: $big-font-size;
+      margin-top: 1em;
+    }
+
+
+.footer {
+  font-size: $big-font-size;
+  padding: 7em 0;
+  text-align: center;
+  text-decoration: none;
+}
+  
+  .foot-links {
+    list-style-type: none;
+  }
+
+    .foot-link-line {
+      display: inline-block;
+      padding-right: 1em;
+
+      &:last-child {
+        padding: none;
+      }
+    }
+
+      .foot-link {
+        color: #FFF;
+        text-decoration: none;
+
+        &:hover {
+          color: #F0F;
+        }
+    }
+

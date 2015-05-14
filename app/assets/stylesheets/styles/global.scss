@@ -1,0 +1,19 @@
+.hidden {
+  display: none;
+}
+
+html {
+  font-size: $root-font-size;
+}
+
+body {
+  background-color: $main-color;
+  color: #FFF;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
