@@ -1,0 +1,19 @@
+// Place all the styles related to the BlogPosts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.blog-post {
+  background-color: #FFF;
+  color: #000;
+  border-radius: $container-round-border-val;
+  padding: 2em;
+}
+
+.blog-post-title {
+  text-align: left;
+  margin-bottom: 1em;
+}
+
+.blog-post-content {
+
+}

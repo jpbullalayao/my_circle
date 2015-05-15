@@ -3,14 +3,13 @@
 }
 
 html {
+  background-color: $main-color;
   font-size: $root-font-size;
+  font-family: sans-serif;
 }
 
-body {
-  background-color: $main-color;
-  color: #FFF;
-  font-family: sans-serif;
-  text-align: center;
+p {
+	
 }
 
 * {

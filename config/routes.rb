@@ -57,4 +57,10 @@ Rails.application.routes.draw do
   root 'static_pages#index'
 
   resources :alpha_users
+
+  # Blog
+  resources :blogs
+  resources :blog_posts
+  resources :blog_comments
+  
 end

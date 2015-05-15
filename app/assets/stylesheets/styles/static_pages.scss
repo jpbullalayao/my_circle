@@ -6,47 +6,47 @@
 /*----------------*/
 /*      Home      */
 /*----------------*/
-
-.main {
-  font-size: $big-root-font-size;  
+  
+.app-title {
+  color: #FFF;
+  font-size: $big-root-font-size;
+  margin-top: 2em;
+  text-align: center;
 }
 
-  .app-title {
+	.main-title {
+    font-size: $main-title-font-size;
+	}
+    .my {
+      background-color: #FFF;
+      border-radius: 100px;
+      color: $main-color;
+      padding: 0.2em 0.1em;
+    }
+
+    .circle {
+      margin-left: -0.2em;
+    }
+
+  .sub-title {
     margin-top: 2em;
   }
 
-  	.main-title {
-      font-size: $main-title-font-size;
-  	}
-      .my {
-        background-color: #FFF;
-        border-radius: 100px;
-        color: $main-color;
-        padding: 0.2em 0.1em;
-      }
 
-      .circle {
-        margin-left: -0.2em;
-      }
+.subscribe {
+  color: #FFF;
+  font-size: $big-font-size;
+  margin-top: 3em;
+  text-align: center;
+}
 
-    .sub-title {
-      margin-top: 2em;
-    }
-
-
-  .subscribe {
-    margin-top: 3em;
+  .subscribe-now {
+    margin-bottom: 1em;
   }
 
-    .subscribe-now {
-      font-size: $big-font-size;
-      margin-bottom: 1em;
-    }
-
-    .subscribe-msg {
-      font-size: $big-font-size;
-      margin-top: 1em;
-    }
+  .subscribe-msg {
+    margin-top: 1em;
+  }
 
 
 .footer {

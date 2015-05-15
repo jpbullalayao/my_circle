@@ -1,25 +1,35 @@
-%main.main
-  
+.modal-background
+
   .app-title
+
     %h1.main-title
+      
       %span.my My 
+      
       %span.circle Circle 
     
     %h2.sub-title
       Expand your professional circle
 
   .subscribe 
+
     %p.subscribe-now
       Enter your information below to subscribe to updates!
     
     = form_for @alpha_user, remote: true do |f|
+      
       = f.text_field :name, class: "input-field", placeholder: "What's your name?"
+      
       %br
+      
       = f.text_field :email, class: "input-field", placeholder: "What's your e-mail address?"
+      
       %br
+      
       = f.submit "Go!", class: "btn-primary btn-vertical"
     
     %p.subscribe-msg.hidden
       Thank you for subscribing!
 
+= render "static_pages/subscribe_modal" 
 

@@ -15,22 +15,17 @@
 //= require turbolinks
 //= require_tree .
 
-$(document).ready(function () {
-	
-	$(".subscribe").find(".btn-primary").on('click', staticPages.showModal);
 
-	// $(".subscribe").find(".btn-primary").on('click', function () {
-	// 	$(".modal-background").addClass("modal-active");
-	// 	$(".modal").show(300);
-	// 	$(".subscribe-msg").removeClass("hidden");
 
-	// 	$(".subscribe-now, #new_alpha_user").addClass("hidden");
-	// });
 
-	$(".modal").find(".btn-primary").on('click', staticPages.hideModal);
 
-	// $(".modal").find(".btn-primary").on('click', function () {
-	// 	$(".modal").hide(300);
-	// 	$(".modal-background").removeClass("modal-active");
-	// });
-});
+
+
+
+
+
+
+
+
+
+

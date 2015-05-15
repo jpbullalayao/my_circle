@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html>
-	<head>
-	  <title>MyCircle - Expand Your Professional Circle</title>
+	
+  <head>
+	  
+    <title>MyCircle - Expand Your Professional Circle</title>
 	  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
 	  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 	  <%= csrf_meta_tags %>
     <%= favicon_link_tag 'icon.ico' %>
-	</head>
+	
+  </head>
 
   <body>
-    <div class="modal-background">
-      <%= yield %>
+    
+    <main>
 
-<!--       <footer class="footer">
-        <nav>
-          <ul class="foot-links">
-            <li class="foot-link-line"><a href="#" class="foot-link">About</a></li>
-            <li class="foot-link-line"><a href="#" class="foot-link">Blog</a></li>
-          </ul>
-        </nav>
-      </footer>  -->
-    </div>
+      <div class="container">
+      
+        <%= yield %>
+      
+      </div>
 
-    <%= render "static_pages/subscribe_modal" %>
+    </main>
 
   </body>
 
